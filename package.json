@@ -1,0 +1,39 @@
+{
+  "name": "",
+  "description": "",
+  "version": "0.0.1",
+  "homepage": "",
+  "author": "",
+  "repository" :{
+    "type" : "git",
+    "url" : ""
+  },
+  "main": "build.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {},
+  "dependencies": {
+    "gulp-uglify": "^1.0.1"
+  },
+  "devDependencies": {
+    "jquery": "2.1.4",
+    "pug": "*",
+    "jeet": "*",
+    "gulp": "*",
+    "gulp-stylus": "*",
+    "gulp-util": "*",
+    "gulp-load-plugins": "*",
+    "gulp-concat": "*",
+    "gulp-imagemin": "*",
+    "gulp-pug": "1.1.0",
+    "gulp-rename": "*",
+    "gulp-coffee": "*",
+    "gulp-clean-css": "*",
+    "coffee-script": "*",
+    "nib": "*"
+  },
+  "keywords": [],
+  "readmeFilename": "README.md",
+  "license": "0BSD"
+}
