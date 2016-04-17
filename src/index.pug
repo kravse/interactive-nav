@@ -50,8 +50,9 @@ html.no-js
           button.search search
           .drop.search-drop
             form
-              input(type="text" placeholder="TYPE HERE TO SEARCH")
-              button.search-cta Execute Search
+              .search-field
+                input(type="text" placeholder="TYPE HERE TO SEARCH")
+                button.search-cta Execute Search
     script(src='scripts/main.min.js')
     script(type='text/javascript').
       Main.init();

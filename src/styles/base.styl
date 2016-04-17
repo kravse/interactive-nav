@@ -200,28 +200,31 @@ body
     +media('mobile')
       max-height: 100%
     
+    .search-field
+      width: 100%
+      border-radius: 3px
+      border: 1px solid $soft-blue
+    
     input
       height: 35px
-      border-top-right-radius: 0
-      border-bottom-right-radius: 0
       border-right: 0
       min-width: 350px
+      border: 0
+      position: relative
       
       +media('mobile')
         min-width: 0
         width: 80%
-        
+    
     .search-cta
       height: 35px
       width: 45px
-      border: 1px solid $soft-blue
-      border-top-right-radius: 3px
-      border-bottom-right-radius: 3px
       text-indent: -1000px
       overflow: hidden
       position: relative
-      top: 1px
       background: $white
+      border: 0
+      border-left: 1px solid $soft-blue
       
       +media('mobile')
         width: 20%
